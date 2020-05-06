@@ -1,7 +1,7 @@
 # Getting_and_Cleaning_Data_Course_Project
-##Project Read Me
+## Project Read Me
 
-##R Script
+## R Script
 "run_analysis.R" is a script which retrieves, stores, reads, transforms, and cleans the raw data as detailed below:
 
 1. The training and test data sets are merged to form one data set.

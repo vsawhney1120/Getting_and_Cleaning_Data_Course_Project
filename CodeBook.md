@@ -1,16 +1,17 @@
-#Getting and Cleaning Data Course Project
-##Project Code Book
+# Getting and Cleaning Data Course Project
 
-##R Script
+## Project Code Book
+
+## R Script
 "run_analysis.R" is a script which retrieves, stores, reads, transforms, and cleans the raw data as detailed in "Data Transformation"
 
-##Variables
-```{r eval=FALSE} x_train```, ```{r eval=FALSE} y_train```, ```{r eval=FALSE} x_test```, ```{r eval=FALSE} y_test```, ```{r eval=FALSE} subject_train``` and ```{r eval=FALSE} subject_test``` contain the data from the downloaded files.
-```{r eval=FALSE} x_data```, ```{r eval=FALSE} y_data``` and ```{r eval=FALSE} subject_data``` merge the previous datasets.
-```{r eval=FALSE} features``` contains the correct names for the x_data dataset.
-```{r eval=FALSE} activity_lables``` contains discriptive activity labels.
+## Variables
+```x_train```, ```y_train```, ```x_test```, ```y_test```, ```subject_train``` and ```subject_test``` contain the data from the downloaded files.
+```x_data```, ```y_data``` and ```subject_data``` merge the previous datasets.
+```features``` contains the correct names for the x_data dataset.
+```activity_lables``` contains discriptive activity labels.
 
-##Data Transformation
+## Data Transformation
 1. The training and test data sets are merged to form one data set.
 2. A data subset of the mean and standard deviation for each measurement is created.
 3. Descriptive activity names are added to the data subset
